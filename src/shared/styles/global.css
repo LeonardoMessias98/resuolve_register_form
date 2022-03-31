@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  height: max-content;
+
+  background-color: #f6f7fc;
+}
+
+* {
+  box-sizing: border-box;
+  user-select: none;
+}
+
+button {
+  cursor: pointer;
+}
