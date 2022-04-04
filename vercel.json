@@ -1,6 +1,0 @@
-{
-    "redirects": [
-      { "source": "/", "destination": "/" },
-      { "source": "/list", "destination": "/list", "permanent": false }
-    ]
-  }
