@@ -12,7 +12,6 @@ const router = createRouter({
     {
       path: '/list',
       name: 'List',
-      component: ListView
       component: () => import('../views/ListView.vue')
     },
     // {
