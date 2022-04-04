@@ -13,6 +13,9 @@
         <label>Telefone / Celular:</label>
         <input type="text" v-model="user.phone" placeholder="(12) 99999-9999">
         <button>Cadastrar</button>
+        <a href="/list">
+        <button>Ver registros</button>
+        </a>
       </form>
     </div>
   </div>
