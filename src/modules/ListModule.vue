@@ -56,7 +56,6 @@
     min-height: 100vh;
     height: 100%;
 
-    border: 1px solid red;
     padding: 107px 30px 30px;
   }
 
