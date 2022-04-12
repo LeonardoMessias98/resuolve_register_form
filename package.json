@@ -7,9 +7,10 @@
     "preview": "vite preview --port 5050"
   },
   "dependencies": {
+    "axios": "^0.26.1",
+    "rollup-plugin-dynamic-import-variables": "^1.1.0",
     "vue": "^3.2.31",
-    "vue-router": "^4.0.12",
-    "rollup-plugin-dynamic-import-variables": "^1.1.0"
+    "vue-router": "^4.0.12"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.2.2",

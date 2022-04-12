@@ -20,8 +20,8 @@
           <li v-for="user, index in users" :key="user.email">
             <span>{{ ("000" + (index + 1)).slice(-4) }}</span>
             <span>{{ user.email }}</span>
-            <span>{{ user.name }}</span>
-            <span>{{ user.phone }}</span>
+            <span>{{ user.nome }}</span>
+            <span>{{ user.telefone }}</span>
           </li>
         </ul>
       </div>
@@ -31,9 +31,10 @@
 </template>
 
 <script>
-  const users = JSON.parse(localStorage.getItem('#res_users'))
-
-  console.log(users)
+  import axios from 'axios';
+  
+  const response = await axios.get('https://resuolve-backend.herokuapp.com/resuolve/usuario/listar');
+  const users = response.data
 
   export default {
     data() {
@@ -55,7 +56,6 @@
     width: 100vw;
     min-height: 100vh;
     height: 100%;
-
     padding: 107px 30px 30px;
   }
 
