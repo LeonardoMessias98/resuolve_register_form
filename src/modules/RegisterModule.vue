@@ -48,7 +48,7 @@
           "email": user.email,
           "telefone": user.phone,
           "senha": user.password
-        }).then(response => console.log(response, 'res'))
+        })
       },
       onSubmit(e) {
         e.preventDefault();
