@@ -13,7 +13,7 @@
         <label>Telefone / Celular:</label>
         <input type="text" v-model="user.phone" placeholder="(12) 99999-9999">
         <button>Cadastrar</button>
-        <a href="/list">
+        <a href="/list" class="see-register-btn">
         Ver registros
         </a>
       </form>
@@ -145,5 +145,17 @@
     max-width: 300px;
     align-self: center;
     border: none;
+  }
+
+  a.see-register-btn {
+    width: max-content;
+    padding: 10px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-family: Inter;
+    color: #fff;
+    background: #849FBF;
+    box-shadow: 2px 4px 8px rgb(132 159 191 / 40%);
+    border-radius: 8px;
   }
 </style>

@@ -146,6 +146,8 @@
   }
 
   .content .form ul {
+    overflow-y: scroll;
+    height: calc(100% - 75px);
     list-style: none;
     padding: 0 1.5rem;
   }
